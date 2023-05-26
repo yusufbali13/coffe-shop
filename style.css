@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  background-color: rgba(255, 255, 255, 0.719);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 70rem;
+  margin: 2vh auto 10vh;
+  align-items: center;
+}
+
+.header__icon img {
+  width: 8rem;
+}
+
+div i:hover {
+  cursor: pointer;
+  color: rgb(152, 255, 152);
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+  height: 3rem;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.header__menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.header__menu button {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  width: 11rem;
+  height: 2.5rem;
+}
+
+.header__menu button:hover,
+.header__icon i:hover,
+.header__menu a:hover {
+  color: rgb(152, 255, 152);
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.main div h1 {
+  font-size: 7rem;
+}
+
+.main img {
+  width: 35%;
+  flex-wrap: wrap;
+}
+
+div .btn {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 1.5rem;
+}
+
+div a {
+  color: black;
+  margin-left: 2.2rem;
+}
+
+div a:hover {
+  color: rgb(72, 207, 72);
+}
+
+div .btn:hover {
+  cursor: pointer;
+  color: rgb(152, 255, 152);
+  background-color: rgb(49, 49, 49);
+}
